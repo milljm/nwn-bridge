@@ -1,0 +1,12 @@
+{
+    "THEME" : "Forgotten Realms D&D",
+    "DEFAULT_RESPONSE" : "minimal response, no emojis.",
+    "LOCATIONS" : ["Shadowvale", "Knights Corner"],
+    "DATABASE_TRIGGERS" : {
+        "OnHeartbeat" : {"_player" : true,
+                         "_plot_item_4" : true
+                        },
+        "OnPlayerChat" : true,
+        "etc" : true
+    }
+}
